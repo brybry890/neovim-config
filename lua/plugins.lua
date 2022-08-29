@@ -58,4 +58,6 @@ return require('packer').startup(function()
     config = function() require("nvim-autopairs").setup {} end
   }
 
+  use "numToStr/FTerm.nvim"
+
 end)
